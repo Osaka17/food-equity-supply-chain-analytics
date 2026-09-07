@@ -1,0 +1,9 @@
+pantry_id,pantry_name,max_storage_capacity_lbs,demand_share_pct,sim_stockout_days,sim_stockout_pct,sim_overflow_days,sim_overflow_pct,sim_peak_lbs
+P01,The Common Hearth Food Center,25000,10.84,0,0.0,341,93.42,520389.47
+P02,East Ward Food Relief,18000,10.95,0,0.0,351,96.16,526520.49
+P03,Westside Community Hub,22000,10.99,0,0.0,350,95.89,528777.09
+P04,North Star Pantry,16000,11.05,0,0.0,353,96.71,532223.48
+P05,Metro Central Distribution,35000,23.08,0,0.0,353,96.71,1112479.79
+P06,North Valley Food Hub,21000,10.96,0,0.0,349,95.62,525773.02
+P07,Eastside Community Table,17500,10.96,0,0.0,351,96.16,525629.23
+P08,West End Nourish Network,29000,11.17,0,0.0,339,92.88,537486.47

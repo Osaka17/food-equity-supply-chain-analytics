@@ -1,0 +1,731 @@
+"pantry_id","pantry_name","max_storage_capacity_lbs","service_date","running_total_lbs"
+"P02","East Ward Food Relief",18000,"2025-09-01",-2503.57
+"P05","Metro Central Distribution",35000,"2025-09-01",-4681.29
+"P02","East Ward Food Relief",18000,"2025-09-02",3892.72
+"P05","Metro Central Distribution",35000,"2025-09-02",-9622.94
+"P02","East Ward Food Relief",18000,"2025-09-03",11228.36
+"P05","Metro Central Distribution",35000,"2025-09-03",-3557.03
+"P02","East Ward Food Relief",18000,"2025-09-04",8714.43
+"P05","Metro Central Distribution",35000,"2025-09-04",4957.68
+"P02","East Ward Food Relief",18000,"2025-09-05",16746.68
+"P05","Metro Central Distribution",35000,"2025-09-05",-580.85
+"P02","East Ward Food Relief",18000,"2025-09-06",14817.84
+"P05","Metro Central Distribution",35000,"2025-09-06",5905.04
+"P02","East Ward Food Relief",18000,"2025-09-07",11835.16
+"P05","Metro Central Distribution",35000,"2025-09-07",12158.17
+"P02","East Ward Food Relief",18000,"2025-09-08",9819.79
+"P05","Metro Central Distribution",35000,"2025-09-08",17615.72
+"P02","East Ward Food Relief",18000,"2025-09-09",6734.36
+"P05","Metro Central Distribution",35000,"2025-09-09",11778.13
+"P02","East Ward Food Relief",18000,"2025-09-10",15690.27
+"P05","Metro Central Distribution",35000,"2025-09-10",6152.54
+"P02","East Ward Food Relief",18000,"2025-09-11",13013.7
+"P05","Metro Central Distribution",35000,"2025-09-11",10245.31
+"P02","East Ward Food Relief",18000,"2025-09-12",23929.63
+"P05","Metro Central Distribution",35000,"2025-09-12",17171.55
+"P02","East Ward Food Relief",18000,"2025-09-13",33757.79
+"P05","Metro Central Distribution",35000,"2025-09-13",12671.55
+"P02","East Ward Food Relief",18000,"2025-09-14",41018.41
+"P05","Metro Central Distribution",35000,"2025-09-14",7009.67
+"P02","East Ward Food Relief",18000,"2025-09-15",38634.69
+"P05","Metro Central Distribution",35000,"2025-09-15",1751.1
+"P02","East Ward Food Relief",18000,"2025-09-16",36229.53
+"P05","Metro Central Distribution",35000,"2025-09-16",8592.81
+"P02","East Ward Food Relief",18000,"2025-09-17",44216.89
+"P05","Metro Central Distribution",35000,"2025-09-17",13287.78
+"P02","East Ward Food Relief",18000,"2025-09-18",41911.68
+"P05","Metro Central Distribution",35000,"2025-09-18",7994.01
+"P02","East Ward Food Relief",18000,"2025-09-19",48357.52
+"P05","Metro Central Distribution",35000,"2025-09-19",12620.39
+"P02","East Ward Food Relief",18000,"2025-09-20",45578.98
+"P05","Metro Central Distribution",35000,"2025-09-20",16289.78
+"P02","East Ward Food Relief",18000,"2025-09-21",52913.33
+"P05","Metro Central Distribution",35000,"2025-09-21",10321.89
+"P02","East Ward Food Relief",18000,"2025-09-22",59814.28
+"P05","Metro Central Distribution",35000,"2025-09-22",16498.36
+"P02","East Ward Food Relief",18000,"2025-09-23",57430.48
+"P05","Metro Central Distribution",35000,"2025-09-23",11970.98
+"P02","East Ward Food Relief",18000,"2025-09-24",64519.59
+"P05","Metro Central Distribution",35000,"2025-09-24",4727.96
+"P02","East Ward Food Relief",18000,"2025-09-25",72230.7
+"P05","Metro Central Distribution",35000,"2025-09-25",-1974.63
+"P02","East Ward Food Relief",18000,"2025-09-26",68850.62
+"P05","Metro Central Distribution",35000,"2025-09-26",-8679.4
+"P02","East Ward Food Relief",18000,"2025-09-27",76969.18
+"P05","Metro Central Distribution",35000,"2025-09-27",-14817.84
+"P02","East Ward Food Relief",18000,"2025-09-28",84031.29
+"P05","Metro Central Distribution",35000,"2025-09-28",-10102.01
+"P02","East Ward Food Relief",18000,"2025-09-29",89464.96
+"P05","Metro Central Distribution",35000,"2025-09-29",-4990.24
+"P02","East Ward Food Relief",18000,"2025-09-30",85398.34
+"P05","Metro Central Distribution",35000,"2025-09-30",-11646.54
+"P02","East Ward Food Relief",18000,"2025-10-01",82868.13
+"P05","Metro Central Distribution",35000,"2025-10-01",-5259.47
+"P02","East Ward Food Relief",18000,"2025-10-02",91751.66
+"P05","Metro Central Distribution",35000,"2025-10-02",-10175.37
+"P02","East Ward Food Relief",18000,"2025-10-03",89196.7
+"P05","Metro Central Distribution",35000,"2025-10-03",-6282.9
+"P02","East Ward Food Relief",18000,"2025-10-04",87091.73
+"P05","Metro Central Distribution",35000,"2025-10-04",244.09
+"P02","East Ward Food Relief",18000,"2025-10-05",84588.01
+"P05","Metro Central Distribution",35000,"2025-10-05",6172.23
+"P02","East Ward Food Relief",18000,"2025-10-06",81893.77
+"P05","Metro Central Distribution",35000,"2025-10-06",995.49
+"P02","East Ward Food Relief",18000,"2025-10-07",79788.43
+"P05","Metro Central Distribution",35000,"2025-10-07",-3393.99
+"P02","East Ward Food Relief",18000,"2025-10-08",86124.04
+"P05","Metro Central Distribution",35000,"2025-10-08",-8061.31
+"P02","East Ward Food Relief",18000,"2025-10-09",93272.48
+"P05","Metro Central Distribution",35000,"2025-10-09",-1971.02
+"P02","East Ward Food Relief",18000,"2025-10-10",91053.05
+"P05","Metro Central Distribution",35000,"2025-10-10",-6941.8
+"P02","East Ward Food Relief",18000,"2025-10-11",88779.78
+"P05","Metro Central Distribution",35000,"2025-10-11",-12065.62
+"P02","East Ward Food Relief",18000,"2025-10-12",96157.25
+"P05","Metro Central Distribution",35000,"2025-10-12",-17405.27
+"P02","East Ward Food Relief",18000,"2025-10-13",93152.55
+"P05","Metro Central Distribution",35000,"2025-10-13",-22668.6
+"P02","East Ward Food Relief",18000,"2025-10-14",102734.76
+"P05","Metro Central Distribution",35000,"2025-10-14",-27440.29
+"P02","East Ward Food Relief",18000,"2025-10-15",100544.24
+"P05","Metro Central Distribution",35000,"2025-10-15",-32883.69
+"P02","East Ward Food Relief",18000,"2025-10-16",98498.16
+"P05","Metro Central Distribution",35000,"2025-10-16",-28756.46
+"P02","East Ward Food Relief",18000,"2025-10-17",96109.51
+"P05","Metro Central Distribution",35000,"2025-10-17",-23797.51
+"P02","East Ward Food Relief",18000,"2025-10-18",105237.71
+"P05","Metro Central Distribution",35000,"2025-10-18",-28001.31
+"P02","East Ward Food Relief",18000,"2025-10-19",113762.11
+"P05","Metro Central Distribution",35000,"2025-10-19",-21831.34
+"P02","East Ward Food Relief",18000,"2025-10-20",111298.34
+"P05","Metro Central Distribution",35000,"2025-10-20",-18819.92
+"P02","East Ward Food Relief",18000,"2025-10-21",119584.67
+"P05","Metro Central Distribution",35000,"2025-10-21",-24348.86
+"P02","East Ward Food Relief",18000,"2025-10-22",116093.7
+"P05","Metro Central Distribution",35000,"2025-10-22",-29792.78
+"P02","East Ward Food Relief",18000,"2025-10-23",113851.03
+"P05","Metro Central Distribution",35000,"2025-10-23",-24362.53
+"P02","East Ward Food Relief",18000,"2025-10-24",120368.81
+"P05","Metro Central Distribution",35000,"2025-10-24",-19173.81
+"P02","East Ward Food Relief",18000,"2025-10-25",127474.72
+"P05","Metro Central Distribution",35000,"2025-10-25",-25635.59
+"P02","East Ward Food Relief",18000,"2025-10-26",123992.24
+"P05","Metro Central Distribution",35000,"2025-10-26",-22430.85
+"P02","East Ward Food Relief",18000,"2025-10-27",120472.84
+"P05","Metro Central Distribution",35000,"2025-10-27",-21724.27
+"P02","East Ward Food Relief",18000,"2025-10-28",117006.3
+"P05","Metro Central Distribution",35000,"2025-10-28",-28749.43
+"P02","East Ward Food Relief",18000,"2025-10-29",124149.7
+"P05","Metro Central Distribution",35000,"2025-10-29",-37583.34
+"P02","East Ward Food Relief",18000,"2025-10-30",132648.95
+"P05","Metro Central Distribution",35000,"2025-10-30",-45456.28
+"P02","East Ward Food Relief",18000,"2025-10-31",141822.39
+"P05","Metro Central Distribution",35000,"2025-10-31",-52478.57
+"P02","East Ward Food Relief",18000,"2025-11-01",151847.52
+"P05","Metro Central Distribution",35000,"2025-11-01",-57274.09
+"P02","East Ward Food Relief",18000,"2025-11-02",149406.53
+"P05","Metro Central Distribution",35000,"2025-11-02",-62164.4
+"P02","East Ward Food Relief",18000,"2025-11-03",146379.25
+"P05","Metro Central Distribution",35000,"2025-11-03",-66867.35
+"P02","East Ward Food Relief",18000,"2025-11-04",152618.62
+"P05","Metro Central Distribution",35000,"2025-11-04",-59922.92
+"P02","East Ward Food Relief",18000,"2025-11-05",149526.44
+"P05","Metro Central Distribution",35000,"2025-11-05",-64563.56
+"P02","East Ward Food Relief",18000,"2025-11-06",158739.03
+"P05","Metro Central Distribution",35000,"2025-11-06",-69839.78
+"P02","East Ward Food Relief",18000,"2025-11-07",168782.93
+"P05","Metro Central Distribution",35000,"2025-11-07",-63606.01
+"P02","East Ward Food Relief",18000,"2025-11-08",165956.45
+"P05","Metro Central Distribution",35000,"2025-11-08",-59482.55
+"P02","East Ward Food Relief",18000,"2025-11-09",163966.56
+"P05","Metro Central Distribution",35000,"2025-11-09",-63049.22
+"P02","East Ward Food Relief",18000,"2025-11-10",160503.99
+"P05","Metro Central Distribution",35000,"2025-11-10",-68373.88
+"P02","East Ward Food Relief",18000,"2025-11-11",168274.83
+"P05","Metro Central Distribution",35000,"2025-11-11",-59908.62
+"P02","East Ward Food Relief",18000,"2025-11-12",176191.66
+"P05","Metro Central Distribution",35000,"2025-11-12",-65442.42
+"P02","East Ward Food Relief",18000,"2025-11-13",173484.88
+"P05","Metro Central Distribution",35000,"2025-11-13",-58673.78
+"P02","East Ward Food Relief",18000,"2025-11-14",171093.46
+"P05","Metro Central Distribution",35000,"2025-11-14",-52415.7
+"P02","East Ward Food Relief",18000,"2025-11-15",168742.17
+"P05","Metro Central Distribution",35000,"2025-11-15",-56603.88
+"P02","East Ward Food Relief",18000,"2025-11-16",175797.4
+"P05","Metro Central Distribution",35000,"2025-11-16",-60341.33
+"P02","East Ward Food Relief",18000,"2025-11-17",183678.46
+"P05","Metro Central Distribution",35000,"2025-11-17",-57141.96
+"P02","East Ward Food Relief",18000,"2025-11-18",181522.71
+"P05","Metro Central Distribution",35000,"2025-11-18",-51969.29
+"P02","East Ward Food Relief",18000,"2025-11-19",191260.27
+"P05","Metro Central Distribution",35000,"2025-11-19",-56505.14
+"P02","East Ward Food Relief",18000,"2025-11-20",188868.08
+"P05","Metro Central Distribution",35000,"2025-11-20",-61218.93
+"P02","East Ward Food Relief",18000,"2025-11-21",186148.19
+"P05","Metro Central Distribution",35000,"2025-11-21",-55540.42
+"P02","East Ward Food Relief",18000,"2025-11-22",194600.05
+"P05","Metro Central Distribution",35000,"2025-11-22",-48884.47
+"P02","East Ward Food Relief",18000,"2025-11-23",205406.08
+"P05","Metro Central Distribution",35000,"2025-11-23",-54709.97
+"P02","East Ward Food Relief",18000,"2025-11-24",212953.32
+"P05","Metro Central Distribution",35000,"2025-11-24",-61636.48
+"P02","East Ward Food Relief",18000,"2025-11-25",209913.61
+"P05","Metro Central Distribution",35000,"2025-11-25",-67960.86
+"P02","East Ward Food Relief",18000,"2025-11-26",206963.66
+"P05","Metro Central Distribution",35000,"2025-11-26",-63306.74
+"P02","East Ward Food Relief",18000,"2025-11-27",215372.1
+"P05","Metro Central Distribution",35000,"2025-11-27",-60855.9
+"P02","East Ward Food Relief",18000,"2025-11-28",221854.78
+"P05","Metro Central Distribution",35000,"2025-11-28",-58273.91
+"P02","East Ward Food Relief",18000,"2025-11-29",218924.03
+"P05","Metro Central Distribution",35000,"2025-11-29",-66357.19
+"P02","East Ward Food Relief",18000,"2025-11-30",215739.66
+"P05","Metro Central Distribution",35000,"2025-11-30",-75123.75
+"P02","East Ward Food Relief",18000,"2025-12-01",212972.91
+"P05","Metro Central Distribution",35000,"2025-12-01",-69250.1
+"P02","East Ward Food Relief",18000,"2025-12-02",220101.9
+"P05","Metro Central Distribution",35000,"2025-12-02",-64243.69
+"P02","East Ward Food Relief",18000,"2025-12-03",217627.34
+"P05","Metro Central Distribution",35000,"2025-12-03",-68555.66
+"P02","East Ward Food Relief",18000,"2025-12-04",215200.46
+"P05","Metro Central Distribution",35000,"2025-12-04",-74441.5
+"P02","East Ward Food Relief",18000,"2025-12-05",213085.76
+"P05","Metro Central Distribution",35000,"2025-12-05",-69975.67
+"P02","East Ward Food Relief",18000,"2025-12-06",223535.25
+"P05","Metro Central Distribution",35000,"2025-12-06",-76048.38
+"P02","East Ward Food Relief",18000,"2025-12-07",229722.83
+"P05","Metro Central Distribution",35000,"2025-12-07",-69251.88
+"P02","East Ward Food Relief",18000,"2025-12-08",227215.33
+"P05","Metro Central Distribution",35000,"2025-12-08",-74179.85
+"P02","East Ward Food Relief",18000,"2025-12-09",224723.06
+"P05","Metro Central Distribution",35000,"2025-12-09",-79303.49
+"P02","East Ward Food Relief",18000,"2025-12-10",232294.25
+"P05","Metro Central Distribution",35000,"2025-12-10",-74182.24
+"P02","East Ward Food Relief",18000,"2025-12-11",228951.23
+"P05","Metro Central Distribution",35000,"2025-12-11",-68095.86
+"P02","East Ward Food Relief",18000,"2025-12-12",226200.82
+"P05","Metro Central Distribution",35000,"2025-12-12",-60024.74
+"P02","East Ward Food Relief",18000,"2025-12-13",224017.96
+"P05","Metro Central Distribution",35000,"2025-12-13",-64820.98
+"P02","East Ward Food Relief",18000,"2025-12-14",231527.91
+"P05","Metro Central Distribution",35000,"2025-12-14",-56339.87
+"P02","East Ward Food Relief",18000,"2025-12-15",228996.41
+"P05","Metro Central Distribution",35000,"2025-12-15",-51274.43
+"P02","East Ward Food Relief",18000,"2025-12-16",236065.13
+"P05","Metro Central Distribution",35000,"2025-12-16",-56554.5
+"P02","East Ward Food Relief",18000,"2025-12-17",246539.55
+"P05","Metro Central Distribution",35000,"2025-12-17",-61308.6
+"P02","East Ward Food Relief",18000,"2025-12-18",243873.23
+"P05","Metro Central Distribution",35000,"2025-12-18",-53730.73
+"P02","East Ward Food Relief",18000,"2025-12-19",254111.78
+"P05","Metro Central Distribution",35000,"2025-12-19",-46157.43
+"P02","East Ward Food Relief",18000,"2025-12-20",251034.84
+"P05","Metro Central Distribution",35000,"2025-12-20",-50489.61
+"P02","East Ward Food Relief",18000,"2025-12-21",261475.88
+"P05","Metro Central Distribution",35000,"2025-12-21",-44349.51
+"P02","East Ward Food Relief",18000,"2025-12-22",270835.64
+"P05","Metro Central Distribution",35000,"2025-12-22",-48521.99
+"P02","East Ward Food Relief",18000,"2025-12-23",267662.64
+"P05","Metro Central Distribution",35000,"2025-12-23",-55510.77
+"P02","East Ward Food Relief",18000,"2025-12-24",277363.82
+"P05","Metro Central Distribution",35000,"2025-12-24",-52642.02
+"P02","East Ward Food Relief",18000,"2025-12-25",273904.76
+"P05","Metro Central Distribution",35000,"2025-12-25",-60031.04
+"P02","East Ward Food Relief",18000,"2025-12-26",282408.93
+"P05","Metro Central Distribution",35000,"2025-12-26",-69274.86
+"P02","East Ward Food Relief",18000,"2025-12-27",288006.89
+"P05","Metro Central Distribution",35000,"2025-12-27",-76561.2
+"P02","East Ward Food Relief",18000,"2025-12-28",284400.45
+"P05","Metro Central Distribution",35000,"2025-12-28",-70592.8
+"P02","East Ward Food Relief",18000,"2025-12-29",290186.56
+"P05","Metro Central Distribution",35000,"2025-12-29",-76780.68
+"P02","East Ward Food Relief",18000,"2025-12-30",296559.68
+"P05","Metro Central Distribution",35000,"2025-12-30",-74464.03
+"P02","East Ward Food Relief",18000,"2025-12-31",293130.12
+"P05","Metro Central Distribution",35000,"2025-12-31",-71009.71
+"P02","East Ward Food Relief",18000,"2026-01-01",303528.3
+"P05","Metro Central Distribution",35000,"2026-01-01",-63779.62
+"P02","East Ward Food Relief",18000,"2026-01-02",301446.28
+"P05","Metro Central Distribution",35000,"2026-01-02",-58917.34
+"P02","East Ward Food Relief",18000,"2026-01-03",309139.82
+"P05","Metro Central Distribution",35000,"2026-01-03",-63955.77
+"P02","East Ward Food Relief",18000,"2026-01-04",307235.62
+"P05","Metro Central Distribution",35000,"2026-01-04",-69159.33
+"P02","East Ward Food Relief",18000,"2026-01-05",305122.41
+"P05","Metro Central Distribution",35000,"2026-01-05",-74673.25
+"P02","East Ward Food Relief",18000,"2026-01-06",313053.98
+"P05","Metro Central Distribution",35000,"2026-01-06",-79786.17
+"P02","East Ward Food Relief",18000,"2026-01-07",310603.51
+"P05","Metro Central Distribution",35000,"2026-01-07",-72809.69
+"P02","East Ward Food Relief",18000,"2026-01-08",320709.83
+"P05","Metro Central Distribution",35000,"2026-01-08",-78051.9
+"P02","East Ward Food Relief",18000,"2026-01-09",318796.61
+"P05","Metro Central Distribution",35000,"2026-01-09",-83887.91
+"P02","East Ward Food Relief",18000,"2026-01-10",316249.75
+"P05","Metro Central Distribution",35000,"2026-01-10",-77943.76
+"P02","East Ward Food Relief",18000,"2026-01-11",313409.33
+"P05","Metro Central Distribution",35000,"2026-01-11",-84169.6
+"P02","East Ward Food Relief",18000,"2026-01-12",320856.64
+"P05","Metro Central Distribution",35000,"2026-01-12",-89165.36
+"P02","East Ward Food Relief",18000,"2026-01-13",318623.95
+"P05","Metro Central Distribution",35000,"2026-01-13",-93743.09
+"P02","East Ward Food Relief",18000,"2026-01-14",325633.79
+"P05","Metro Central Distribution",35000,"2026-01-14",-91838.17
+"P02","East Ward Food Relief",18000,"2026-01-15",333395.05
+"P05","Metro Central Distribution",35000,"2026-01-15",-97684.98
+"P02","East Ward Food Relief",18000,"2026-01-16",331137.69
+"P05","Metro Central Distribution",35000,"2026-01-16",-102447.86
+"P02","East Ward Food Relief",18000,"2026-01-17",338309.3
+"P05","Metro Central Distribution",35000,"2026-01-17",-107908.58
+"P02","East Ward Food Relief",18000,"2026-01-18",336291.57
+"P05","Metro Central Distribution",35000,"2026-01-18",-111953.37
+"P02","East Ward Food Relief",18000,"2026-01-19",346136.99
+"P05","Metro Central Distribution",35000,"2026-01-19",-117203.02
+"P02","East Ward Food Relief",18000,"2026-01-20",344321.97
+"P05","Metro Central Distribution",35000,"2026-01-20",-123133.91
+"P02","East Ward Food Relief",18000,"2026-01-21",351408.6
+"P05","Metro Central Distribution",35000,"2026-01-21",-127610.9
+"P02","East Ward Food Relief",18000,"2026-01-22",348700.38
+"P05","Metro Central Distribution",35000,"2026-01-22",-120536.76
+"P02","East Ward Food Relief",18000,"2026-01-23",346213.4
+"P05","Metro Central Distribution",35000,"2026-01-23",-115721.42
+"P02","East Ward Food Relief",18000,"2026-01-24",342926.06
+"P05","Metro Central Distribution",35000,"2026-01-24",-123171.22
+"P02","East Ward Food Relief",18000,"2026-01-25",339215.21
+"P05","Metro Central Distribution",35000,"2026-01-25",-117894.08
+"P02","East Ward Food Relief",18000,"2026-01-26",348563.72
+"P05","Metro Central Distribution",35000,"2026-01-26",-125106.37
+"P02","East Ward Food Relief",18000,"2026-01-27",356658.25
+"P05","Metro Central Distribution",35000,"2026-01-27",-133634.49
+"P02","East Ward Food Relief",18000,"2026-01-28",364864.69
+"P05","Metro Central Distribution",35000,"2026-01-28",-140520.61
+"P02","East Ward Food Relief",18000,"2026-01-29",361484.01
+"P05","Metro Central Distribution",35000,"2026-01-29",-146878.92
+"P02","East Ward Food Relief",18000,"2026-01-30",357751.22
+"P05","Metro Central Distribution",35000,"2026-01-30",-142657.73
+"P02","East Ward Food Relief",18000,"2026-01-31",353909.86
+"P05","Metro Central Distribution",35000,"2026-01-31",-138831.36
+"P02","East Ward Food Relief",18000,"2026-02-01",364339.81
+"P05","Metro Central Distribution",35000,"2026-02-01",-145318.47
+"P02","East Ward Food Relief",18000,"2026-02-02",361534.78
+"P05","Metro Central Distribution",35000,"2026-02-02",-139744.43
+"P02","East Ward Food Relief",18000,"2026-02-03",358962.59
+"P05","Metro Central Distribution",35000,"2026-02-03",-143994.25
+"P02","East Ward Food Relief",18000,"2026-02-04",366680.52
+"P05","Metro Central Distribution",35000,"2026-02-04",-149896.03
+"P02","East Ward Food Relief",18000,"2026-02-05",364990.43
+"P05","Metro Central Distribution",35000,"2026-02-05",-145693.77
+"P02","East Ward Food Relief",18000,"2026-02-06",372200.94
+"P05","Metro Central Distribution",35000,"2026-02-06",-151121.79
+"P02","East Ward Food Relief",18000,"2026-02-07",369514.35
+"P05","Metro Central Distribution",35000,"2026-02-07",-144340.98
+"P02","East Ward Food Relief",18000,"2026-02-08",366810.67
+"P05","Metro Central Distribution",35000,"2026-02-08",-139059.12
+"P02","East Ward Food Relief",18000,"2026-02-09",364166.1
+"P05","Metro Central Distribution",35000,"2026-02-09",-144721.41
+"P02","East Ward Food Relief",18000,"2026-02-10",372471.79
+"P05","Metro Central Distribution",35000,"2026-02-10",-150495.63
+"P02","East Ward Food Relief",18000,"2026-02-11",380574.06
+"P05","Metro Central Distribution",35000,"2026-02-11",-155960.03
+"P02","East Ward Food Relief",18000,"2026-02-12",378318.17
+"P05","Metro Central Distribution",35000,"2026-02-12",-161049.85
+"P02","East Ward Food Relief",18000,"2026-02-13",385207.97
+"P05","Metro Central Distribution",35000,"2026-02-13",-155389.04
+"P02","East Ward Food Relief",18000,"2026-02-14",382784.76
+"P05","Metro Central Distribution",35000,"2026-02-14",-149248.44
+"P02","East Ward Food Relief",18000,"2026-02-15",380169.58
+"P05","Metro Central Distribution",35000,"2026-02-15",-145329.39
+"P02","East Ward Food Relief",18000,"2026-02-16",387164.78
+"P05","Metro Central Distribution",35000,"2026-02-16",-140513.42
+"P02","East Ward Food Relief",18000,"2026-02-17",384133.28
+"P05","Metro Central Distribution",35000,"2026-02-17",-144781.35
+"P02","East Ward Food Relief",18000,"2026-02-18",391529.21
+"P05","Metro Central Distribution",35000,"2026-02-18",-149456.96
+"P02","East Ward Food Relief",18000,"2026-02-19",398746.11
+"P05","Metro Central Distribution",35000,"2026-02-19",-154371.63
+"P02","East Ward Food Relief",18000,"2026-02-20",405457.89
+"P05","Metro Central Distribution",35000,"2026-02-20",-159229.31
+"P02","East Ward Food Relief",18000,"2026-02-21",414444.11
+"P05","Metro Central Distribution",35000,"2026-02-21",-152502.84
+"P02","East Ward Food Relief",18000,"2026-02-22",424683.85
+"P05","Metro Central Distribution",35000,"2026-02-22",-146549.6
+"P02","East Ward Food Relief",18000,"2026-02-23",421542.42
+"P05","Metro Central Distribution",35000,"2026-02-23",-142144.62
+"P02","East Ward Food Relief",18000,"2026-02-24",418820.16
+"P05","Metro Central Distribution",35000,"2026-02-24",-137940.91
+"P02","East Ward Food Relief",18000,"2026-02-25",424320.86
+"P05","Metro Central Distribution",35000,"2026-02-25",-144351.38
+"P02","East Ward Food Relief",18000,"2026-02-26",420580.61
+"P05","Metro Central Distribution",35000,"2026-02-26",-150055.01
+"P02","East Ward Food Relief",18000,"2026-02-27",429025.77
+"P05","Metro Central Distribution",35000,"2026-02-27",-145668.31
+"P02","East Ward Food Relief",18000,"2026-02-28",435972.63
+"P05","Metro Central Distribution",35000,"2026-02-28",-152080.55
+"P02","East Ward Food Relief",18000,"2026-03-01",445254.83
+"P05","Metro Central Distribution",35000,"2026-03-01",-146652.64
+"P02","East Ward Food Relief",18000,"2026-03-02",443419.16
+"P05","Metro Central Distribution",35000,"2026-03-02",-151098.47
+"P02","East Ward Food Relief",18000,"2026-03-03",441114.01
+"P05","Metro Central Distribution",35000,"2026-03-03",-157213.84
+"P02","East Ward Food Relief",18000,"2026-03-04",448423.04
+"P05","Metro Central Distribution",35000,"2026-03-04",-162359.8
+"P02","East Ward Food Relief",18000,"2026-03-05",445924.26
+"P05","Metro Central Distribution",35000,"2026-03-05",-157723.18
+"P02","East Ward Food Relief",18000,"2026-03-06",453826.47
+"P05","Metro Central Distribution",35000,"2026-03-06",-149950.95
+"P02","East Ward Food Relief",18000,"2026-03-07",461748.87
+"P05","Metro Central Distribution",35000,"2026-03-07",-143824.37
+"P02","East Ward Food Relief",18000,"2026-03-08",468302.53
+"P05","Metro Central Distribution",35000,"2026-03-08",-139703.37
+"P02","East Ward Food Relief",18000,"2026-03-09",475760.43
+"P05","Metro Central Distribution",35000,"2026-03-09",-132142.6
+"P02","East Ward Food Relief",18000,"2026-03-10",484726.65
+"P05","Metro Central Distribution",35000,"2026-03-10",-125040.34
+"P02","East Ward Food Relief",18000,"2026-03-11",481880.96
+"P05","Metro Central Distribution",35000,"2026-03-11",-129615.12
+"P02","East Ward Food Relief",18000,"2026-03-12",479636.31
+"P05","Metro Central Distribution",35000,"2026-03-12",-124948.29
+"P02","East Ward Food Relief",18000,"2026-03-13",487903.35
+"P05","Metro Central Distribution",35000,"2026-03-13",-120710.91
+"P02","East Ward Food Relief",18000,"2026-03-14",484924.96
+"P05","Metro Central Distribution",35000,"2026-03-14",-115610.59
+"P02","East Ward Food Relief",18000,"2026-03-15",492526.72
+"P05","Metro Central Distribution",35000,"2026-03-15",-121265.16
+"P02","East Ward Food Relief",18000,"2026-03-16",489907.5
+"P05","Metro Central Distribution",35000,"2026-03-16",-125985.77
+"P02","East Ward Food Relief",18000,"2026-03-17",487377.46
+"P05","Metro Central Distribution",35000,"2026-03-17",-120295.51
+"P02","East Ward Food Relief",18000,"2026-03-18",485088.73
+"P05","Metro Central Distribution",35000,"2026-03-18",-116231.17
+"P02","East Ward Food Relief",18000,"2026-03-19",482612.13
+"P05","Metro Central Distribution",35000,"2026-03-19",-110519.17
+"P02","East Ward Food Relief",18000,"2026-03-20",490113.53
+"P05","Metro Central Distribution",35000,"2026-03-20",-116227.98
+"P02","East Ward Food Relief",18000,"2026-03-21",497644.78
+"P05","Metro Central Distribution",35000,"2026-03-21",-121401.99
+"P02","East Ward Food Relief",18000,"2026-03-22",495652.73
+"P05","Metro Central Distribution",35000,"2026-03-22",-126112.66
+"P02","East Ward Food Relief",18000,"2026-03-23",493166.35
+"P05","Metro Central Distribution",35000,"2026-03-23",-131083.58
+"P02","East Ward Food Relief",18000,"2026-03-24",490176.95
+"P05","Metro Central Distribution",35000,"2026-03-24",-126548.5
+"P02","East Ward Food Relief",18000,"2026-03-25",497383.05
+"P05","Metro Central Distribution",35000,"2026-03-25",-132548.73
+"P02","East Ward Food Relief",18000,"2026-03-26",505112.09
+"P05","Metro Central Distribution",35000,"2026-03-26",-140569.75
+"P02","East Ward Food Relief",18000,"2026-03-27",501929.5
+"P05","Metro Central Distribution",35000,"2026-03-27",-136631.42
+"P02","East Ward Food Relief",18000,"2026-03-28",498643.27
+"P05","Metro Central Distribution",35000,"2026-03-28",-145436.3
+"P02","East Ward Food Relief",18000,"2026-03-29",494419.17
+"P05","Metro Central Distribution",35000,"2026-03-29",-152639.5
+"P02","East Ward Food Relief",18000,"2026-03-30",492295.86
+"P05","Metro Central Distribution",35000,"2026-03-30",-160664.58
+"P02","East Ward Food Relief",18000,"2026-03-31",499363
+"P05","Metro Central Distribution",35000,"2026-03-31",-157300.03
+"P02","East Ward Food Relief",18000,"2026-04-01",497190.03
+"P05","Metro Central Distribution",35000,"2026-04-01",-152160.3
+"P02","East Ward Food Relief",18000,"2026-04-02",505870.2
+"P05","Metro Central Distribution",35000,"2026-04-02",-157291.58
+"P02","East Ward Food Relief",18000,"2026-04-03",513205.44
+"P05","Metro Central Distribution",35000,"2026-04-03",-153069.61
+"P02","East Ward Food Relief",18000,"2026-04-04",511010.18
+"P05","Metro Central Distribution",35000,"2026-04-04",-157448.13
+"P02","East Ward Food Relief",18000,"2026-04-05",507876.09
+"P05","Metro Central Distribution",35000,"2026-04-05",-162910.85
+"P02","East Ward Food Relief",18000,"2026-04-06",515472.32
+"P05","Metro Central Distribution",35000,"2026-04-06",-167871.17
+"P02","East Ward Food Relief",18000,"2026-04-07",513014.63
+"P05","Metro Central Distribution",35000,"2026-04-07",-164214.57
+"P02","East Ward Food Relief",18000,"2026-04-08",510107.24
+"P05","Metro Central Distribution",35000,"2026-04-08",-169453.22
+"P02","East Ward Food Relief",18000,"2026-04-09",520233.25
+"P05","Metro Central Distribution",35000,"2026-04-09",-174095.6
+"P02","East Ward Food Relief",18000,"2026-04-10",517670.22
+"P05","Metro Central Distribution",35000,"2026-04-10",-167864.14
+"P02","East Ward Food Relief",18000,"2026-04-11",526271.72
+"P05","Metro Central Distribution",35000,"2026-04-11",-163039.54
+"P02","East Ward Food Relief",18000,"2026-04-12",532918.99
+"P05","Metro Central Distribution",35000,"2026-04-12",-159247.93
+"P02","East Ward Food Relief",18000,"2026-04-13",530926.6
+"P05","Metro Central Distribution",35000,"2026-04-13",-165201.85
+"P02","East Ward Food Relief",18000,"2026-04-14",537321.33
+"P05","Metro Central Distribution",35000,"2026-04-14",-170386.03
+"P02","East Ward Food Relief",18000,"2026-04-15",545815
+"P05","Metro Central Distribution",35000,"2026-04-15",-175209.61
+"P02","East Ward Food Relief",18000,"2026-04-16",543417.57
+"P05","Metro Central Distribution",35000,"2026-04-16",-181025.91
+"P02","East Ward Food Relief",18000,"2026-04-17",554469.34
+"P05","Metro Central Distribution",35000,"2026-04-17",-186475.08
+"P02","East Ward Food Relief",18000,"2026-04-18",552022.33
+"P05","Metro Central Distribution",35000,"2026-04-18",-192487.48
+"P02","East Ward Food Relief",18000,"2026-04-19",549106.67
+"P05","Metro Central Distribution",35000,"2026-04-19",-198344.03
+"P02","East Ward Food Relief",18000,"2026-04-20",558004.4
+"P05","Metro Central Distribution",35000,"2026-04-20",-192078.85
+"P02","East Ward Food Relief",18000,"2026-04-21",567662.92
+"P05","Metro Central Distribution",35000,"2026-04-21",-196837.34
+"P02","East Ward Food Relief",18000,"2026-04-22",565207.94
+"P05","Metro Central Distribution",35000,"2026-04-22",-192434.24
+"P02","East Ward Food Relief",18000,"2026-04-23",562969.55
+"P05","Metro Central Distribution",35000,"2026-04-23",-197384.36
+"P02","East Ward Food Relief",18000,"2026-04-24",570087.33
+"P05","Metro Central Distribution",35000,"2026-04-24",-195667.15
+"P02","East Ward Food Relief",18000,"2026-04-25",576658.66
+"P05","Metro Central Distribution",35000,"2026-04-25",-201421.77
+"P02","East Ward Food Relief",18000,"2026-04-26",574102.67
+"P05","Metro Central Distribution",35000,"2026-04-26",-209163.4
+"P02","East Ward Food Relief",18000,"2026-04-27",571130.98
+"P05","Metro Central Distribution",35000,"2026-04-27",-217594.43
+"P02","East Ward Food Relief",18000,"2026-04-28",577663.64
+"P05","Metro Central Distribution",35000,"2026-04-28",-224299.63
+"P02","East Ward Food Relief",18000,"2026-04-29",585711.72
+"P05","Metro Central Distribution",35000,"2026-04-29",-230448.07
+"P02","East Ward Food Relief",18000,"2026-04-30",594515.9
+"P05","Metro Central Distribution",35000,"2026-04-30",-228289.77
+"P02","East Ward Food Relief",18000,"2026-05-01",591260.73
+"P05","Metro Central Distribution",35000,"2026-05-01",-232171.76
+"P02","East Ward Food Relief",18000,"2026-05-02",588955.49
+"P05","Metro Central Distribution",35000,"2026-05-02",-237514.59
+"P02","East Ward Food Relief",18000,"2026-05-03",598049.8
+"P05","Metro Central Distribution",35000,"2026-05-03",-232072.87
+"P02","East Ward Food Relief",18000,"2026-05-04",594857.9
+"P05","Metro Central Distribution",35000,"2026-05-04",-236625.26
+"P02","East Ward Food Relief",18000,"2026-05-05",604517.99
+"P05","Metro Central Distribution",35000,"2026-05-05",-230694.68
+"P02","East Ward Food Relief",18000,"2026-05-06",602240.17
+"P05","Metro Central Distribution",35000,"2026-05-06",-234354.62
+"P02","East Ward Food Relief",18000,"2026-05-07",609249.25
+"P05","Metro Central Distribution",35000,"2026-05-07",-229332.73
+"P02","East Ward Food Relief",18000,"2026-05-08",616841.33
+"P05","Metro Central Distribution",35000,"2026-05-08",-223000.1
+"P02","East Ward Food Relief",18000,"2026-05-09",626816.72
+"P05","Metro Central Distribution",35000,"2026-05-09",-228500.82
+"P02","East Ward Food Relief",18000,"2026-05-10",633916.5
+"P05","Metro Central Distribution",35000,"2026-05-10",-234675.2
+"P02","East Ward Food Relief",18000,"2026-05-11",631073.52
+"P05","Metro Central Distribution",35000,"2026-05-11",-239820.53
+"P02","East Ward Food Relief",18000,"2026-05-12",628416.11
+"P05","Metro Central Distribution",35000,"2026-05-12",-234192.72
+"P02","East Ward Food Relief",18000,"2026-05-13",625687.45
+"P05","Metro Central Distribution",35000,"2026-05-13",-228409.38
+"P02","East Ward Food Relief",18000,"2026-05-14",635959.56
+"P05","Metro Central Distribution",35000,"2026-05-14",-233137.8
+"P02","East Ward Food Relief",18000,"2026-05-15",633642.08
+"P05","Metro Central Distribution",35000,"2026-05-15",-238188.37
+"P02","East Ward Food Relief",18000,"2026-05-16",640613.53
+"P05","Metro Central Distribution",35000,"2026-05-16",-243905.77
+"P02","East Ward Food Relief",18000,"2026-05-17",637922.07
+"P05","Metro Central Distribution",35000,"2026-05-17",-236985.4
+"P02","East Ward Food Relief",18000,"2026-05-18",647545.44
+"P05","Metro Central Distribution",35000,"2026-05-18",-241644.28
+"P02","East Ward Food Relief",18000,"2026-05-19",656879.72
+"P05","Metro Central Distribution",35000,"2026-05-19",-247164.25
+"P02","East Ward Food Relief",18000,"2026-05-20",654535.66
+"P05","Metro Central Distribution",35000,"2026-05-20",-252237.21
+"P02","East Ward Food Relief",18000,"2026-05-21",651869.15
+"P05","Metro Central Distribution",35000,"2026-05-21",-246041.72
+"P02","East Ward Food Relief",18000,"2026-05-22",648902.5
+"P05","Metro Central Distribution",35000,"2026-05-22",-240532.01
+"P02","East Ward Food Relief",18000,"2026-05-23",646676.07
+"P05","Metro Central Distribution",35000,"2026-05-23",-236179.98
+"P02","East Ward Food Relief",18000,"2026-05-24",643222.87
+"P05","Metro Central Distribution",35000,"2026-05-24",-232377.33
+"P02","East Ward Food Relief",18000,"2026-05-25",648941.09
+"P05","Metro Central Distribution",35000,"2026-05-25",-229663.96
+"P02","East Ward Food Relief",18000,"2026-05-26",657431.04
+"P05","Metro Central Distribution",35000,"2026-05-26",-223440.63
+"P02","East Ward Food Relief",18000,"2026-05-27",655077.02
+"P05","Metro Central Distribution",35000,"2026-05-27",-217606.43
+"P02","East Ward Food Relief",18000,"2026-05-28",652409.4
+"P05","Metro Central Distribution",35000,"2026-05-28",-226078.84
+"P02","East Ward Food Relief",18000,"2026-05-29",660088.69
+"P05","Metro Central Distribution",35000,"2026-05-29",-233997.67
+"P02","East Ward Food Relief",18000,"2026-05-30",667385.36
+"P05","Metro Central Distribution",35000,"2026-05-30",-240756.82
+"P02","East Ward Food Relief",18000,"2026-05-31",662979.43
+"P05","Metro Central Distribution",35000,"2026-05-31",-236163.92
+"P02","East Ward Food Relief",18000,"2026-06-01",660322.43
+"P05","Metro Central Distribution",35000,"2026-06-01",-241753.88
+"P02","East Ward Food Relief",18000,"2026-06-02",667633.65
+"P05","Metro Central Distribution",35000,"2026-06-02",-247244.88
+"P02","East Ward Food Relief",18000,"2026-06-03",664905.3
+"P05","Metro Central Distribution",35000,"2026-06-03",-240150.68
+"P02","East Ward Food Relief",18000,"2026-06-04",662989.07
+"P05","Metro Central Distribution",35000,"2026-06-04",-236150.36
+"P02","East Ward Food Relief",18000,"2026-06-05",669861.36
+"P05","Metro Central Distribution",35000,"2026-06-05",-243041.38
+"P02","East Ward Food Relief",18000,"2026-06-06",680199.62
+"P05","Metro Central Distribution",35000,"2026-06-06",-247304.14
+"P02","East Ward Food Relief",18000,"2026-06-07",677371.51
+"P05","Metro Central Distribution",35000,"2026-06-07",-253348.05
+"P02","East Ward Food Relief",18000,"2026-06-08",683718.27
+"P05","Metro Central Distribution",35000,"2026-06-08",-248308.54
+"P02","East Ward Food Relief",18000,"2026-06-09",691369.62
+"P05","Metro Central Distribution",35000,"2026-06-09",-245040.64
+"P02","East Ward Food Relief",18000,"2026-06-10",689041.74
+"P05","Metro Central Distribution",35000,"2026-06-10",-251411.1
+"P02","East Ward Food Relief",18000,"2026-06-11",686769.08
+"P05","Metro Central Distribution",35000,"2026-06-11",-244353.63
+"P02","East Ward Food Relief",18000,"2026-06-12",684562.33
+"P05","Metro Central Distribution",35000,"2026-06-12",-249582.47
+"P02","East Ward Food Relief",18000,"2026-06-13",682157.46
+"P05","Metro Central Distribution",35000,"2026-06-13",-255558.14
+"P02","East Ward Food Relief",18000,"2026-06-14",679245.17
+"P05","Metro Central Distribution",35000,"2026-06-14",-261677.11
+"P02","East Ward Food Relief",18000,"2026-06-15",677089.38
+"P05","Metro Central Distribution",35000,"2026-06-15",-254007.77
+"P02","East Ward Food Relief",18000,"2026-06-16",674575.28
+"P05","Metro Central Distribution",35000,"2026-06-16",-257965.6
+"P02","East Ward Food Relief",18000,"2026-06-17",672159.58
+"P05","Metro Central Distribution",35000,"2026-06-17",-263336.36
+"P02","East Ward Food Relief",18000,"2026-06-18",669468.27
+"P05","Metro Central Distribution",35000,"2026-06-18",-259186.1
+"P02","East Ward Food Relief",18000,"2026-06-19",666881.25
+"P05","Metro Central Distribution",35000,"2026-06-19",-263886.39
+"P02","East Ward Food Relief",18000,"2026-06-20",677729.57
+"P05","Metro Central Distribution",35000,"2026-06-20",-259937.7
+"P02","East Ward Food Relief",18000,"2026-06-21",684245.7
+"P05","Metro Central Distribution",35000,"2026-06-21",-264576.75
+"P02","East Ward Food Relief",18000,"2026-06-22",681721.81
+"P05","Metro Central Distribution",35000,"2026-06-22",-257832.45
+"P02","East Ward Food Relief",18000,"2026-06-23",679604.18
+"P05","Metro Central Distribution",35000,"2026-06-23",-253243.62
+"P02","East Ward Food Relief",18000,"2026-06-24",687378.76
+"P05","Metro Central Distribution",35000,"2026-06-24",-250572.84
+"P02","East Ward Food Relief",18000,"2026-06-25",683727.2
+"P05","Metro Central Distribution",35000,"2026-06-25",-257491.88
+"P02","East Ward Food Relief",18000,"2026-06-26",690281.3
+"P05","Metro Central Distribution",35000,"2026-06-26",-265216.02
+"P02","East Ward Food Relief",18000,"2026-06-27",699133.55
+"P05","Metro Central Distribution",35000,"2026-06-27",-272705.46
+"P02","East Ward Food Relief",18000,"2026-06-28",707838.14
+"P05","Metro Central Distribution",35000,"2026-06-28",-281556.54
+"P02","East Ward Food Relief",18000,"2026-06-29",717038.86
+"P05","Metro Central Distribution",35000,"2026-06-29",-278543.79
+"P02","East Ward Food Relief",18000,"2026-06-30",713210.33
+"P05","Metro Central Distribution",35000,"2026-06-30",-286839.06
+"P02","East Ward Food Relief",18000,"2026-07-01",722541.89
+"P05","Metro Central Distribution",35000,"2026-07-01",-283236.45
+"P02","East Ward Food Relief",18000,"2026-07-02",720057.41
+"P05","Metro Central Distribution",35000,"2026-07-02",-276762.99
+"P02","East Ward Food Relief",18000,"2026-07-03",717916.6
+"P05","Metro Central Distribution",35000,"2026-07-03",-270006.35
+"P02","East Ward Food Relief",18000,"2026-07-04",715541.6
+"P05","Metro Central Distribution",35000,"2026-07-04",-263899.2
+"P02","East Ward Food Relief",18000,"2026-07-05",724756.43
+"P05","Metro Central Distribution",35000,"2026-07-05",-267994.64
+"P02","East Ward Food Relief",18000,"2026-07-06",722556.1
+"P05","Metro Central Distribution",35000,"2026-07-06",-273289.17
+"P02","East Ward Food Relief",18000,"2026-07-07",728618.91
+"P05","Metro Central Distribution",35000,"2026-07-07",-277850.04
+"P02","East Ward Food Relief",18000,"2026-07-08",726502.92
+"P05","Metro Central Distribution",35000,"2026-07-08",-272421.51
+"P02","East Ward Food Relief",18000,"2026-07-09",724502.97
+"P05","Metro Central Distribution",35000,"2026-07-09",-266541.9
+"P02","East Ward Food Relief",18000,"2026-07-10",731037.25
+"P05","Metro Central Distribution",35000,"2026-07-10",-272310.28
+"P02","East Ward Food Relief",18000,"2026-07-11",728171.92
+"P05","Metro Central Distribution",35000,"2026-07-11",-277567.58
+"P02","East Ward Food Relief",18000,"2026-07-12",738511.74
+"P05","Metro Central Distribution",35000,"2026-07-12",-270490.59
+"P02","East Ward Food Relief",18000,"2026-07-13",747782.93
+"P05","Metro Central Distribution",35000,"2026-07-13",-263087.51
+"P02","East Ward Food Relief",18000,"2026-07-14",745493.23
+"P05","Metro Central Distribution",35000,"2026-07-14",-258731.95
+"P02","East Ward Food Relief",18000,"2026-07-15",743035.45
+"P05","Metro Central Distribution",35000,"2026-07-15",-263329.36
+"P02","East Ward Food Relief",18000,"2026-07-16",740530.92
+"P05","Metro Central Distribution",35000,"2026-07-16",-267899.08
+"P02","East Ward Food Relief",18000,"2026-07-17",738358.22
+"P05","Metro Central Distribution",35000,"2026-07-17",-272084.23
+"P02","East Ward Food Relief",18000,"2026-07-18",735816.02
+"P05","Metro Central Distribution",35000,"2026-07-18",-277187.95
+"P02","East Ward Food Relief",18000,"2026-07-19",743189.75
+"P05","Metro Central Distribution",35000,"2026-07-19",-269713.49
+"P02","East Ward Food Relief",18000,"2026-07-20",740533.09
+"P05","Metro Central Distribution",35000,"2026-07-20",-263864.3
+"P02","East Ward Food Relief",18000,"2026-07-21",747446.95
+"P05","Metro Central Distribution",35000,"2026-07-21",-269215.83
+"P02","East Ward Food Relief",18000,"2026-07-22",745484.08
+"P05","Metro Central Distribution",35000,"2026-07-22",-263850.56
+"P02","East Ward Food Relief",18000,"2026-07-23",752970.38
+"P05","Metro Central Distribution",35000,"2026-07-23",-259878.05
+"P02","East Ward Food Relief",18000,"2026-07-24",749775.33
+"P05","Metro Central Distribution",35000,"2026-07-24",-266279.93
+"P02","East Ward Food Relief",18000,"2026-07-25",746500.45
+"P05","Metro Central Distribution",35000,"2026-07-25",-264758.31
+"P02","East Ward Food Relief",18000,"2026-07-26",743452.12
+"P05","Metro Central Distribution",35000,"2026-07-26",-258265.92
+"P02","East Ward Food Relief",18000,"2026-07-27",753378.64
+"P05","Metro Central Distribution",35000,"2026-07-27",-266707.85
+"P02","East Ward Food Relief",18000,"2026-07-28",749759.43
+"P05","Metro Central Distribution",35000,"2026-07-28",-274431.63
+"P02","East Ward Food Relief",18000,"2026-07-29",745357.07
+"P05","Metro Central Distribution",35000,"2026-07-29",-280701.74
+"P02","East Ward Food Relief",18000,"2026-07-30",753350.08
+"P05","Metro Central Distribution",35000,"2026-07-30",-288869.76
+"P02","East Ward Food Relief",18000,"2026-07-31",749284.74
+"P05","Metro Central Distribution",35000,"2026-07-31",-295109.51
+"P02","East Ward Food Relief",18000,"2026-08-01",746554.19
+"P05","Metro Central Distribution",35000,"2026-08-01",-288753.67
+"P02","East Ward Food Relief",18000,"2026-08-02",752641.45
+"P05","Metro Central Distribution",35000,"2026-08-02",-294012.28
+"P02","East Ward Food Relief",18000,"2026-08-03",749947.83
+"P05","Metro Central Distribution",35000,"2026-08-03",-298916.26
+"P02","East Ward Food Relief",18000,"2026-08-04",757607.07
+"P05","Metro Central Distribution",35000,"2026-08-04",-293874.93
+"P02","East Ward Food Relief",18000,"2026-08-05",767293.4
+"P05","Metro Central Distribution",35000,"2026-08-05",-287613.52
+"P02","East Ward Food Relief",18000,"2026-08-06",774603.09
+"P05","Metro Central Distribution",35000,"2026-08-06",-280918.07
+"P02","East Ward Food Relief",18000,"2026-08-07",771405.48
+"P05","Metro Central Distribution",35000,"2026-08-07",-285290.71
+"P02","East Ward Food Relief",18000,"2026-08-08",778797.14
+"P05","Metro Central Distribution",35000,"2026-08-08",-280770.91
+"P02","East Ward Food Relief",18000,"2026-08-09",775847.46
+"P05","Metro Central Distribution",35000,"2026-08-09",-274432.62
+"P02","East Ward Food Relief",18000,"2026-08-10",773642.65
+"P05","Metro Central Distribution",35000,"2026-08-10",-267968.6
+"P02","East Ward Food Relief",18000,"2026-08-11",770901.31
+"P05","Metro Central Distribution",35000,"2026-08-11",-274536.24
+"P02","East Ward Food Relief",18000,"2026-08-12",768404.65
+"P05","Metro Central Distribution",35000,"2026-08-12",-269037.41
+"P02","East Ward Food Relief",18000,"2026-08-13",766052.89
+"P05","Metro Central Distribution",35000,"2026-08-13",-275443.82
+"P02","East Ward Food Relief",18000,"2026-08-14",762704.17
+"P05","Metro Central Distribution",35000,"2026-08-14",-280320.7
+"P02","East Ward Food Relief",18000,"2026-08-15",768921.78
+"P05","Metro Central Distribution",35000,"2026-08-15",-276118.69
+"P02","East Ward Food Relief",18000,"2026-08-16",777863.72
+"P05","Metro Central Distribution",35000,"2026-08-16",-269922.96
+"P02","East Ward Food Relief",18000,"2026-08-17",786775.84
+"P05","Metro Central Distribution",35000,"2026-08-17",-274622.3
+"P02","East Ward Food Relief",18000,"2026-08-18",783877.98
+"P05","Metro Central Distribution",35000,"2026-08-18",-279104.73
+"P02","East Ward Food Relief",18000,"2026-08-19",782143.17
+"P05","Metro Central Distribution",35000,"2026-08-19",-284166.07
+"P02","East Ward Food Relief",18000,"2026-08-20",792072.54
+"P05","Metro Central Distribution",35000,"2026-08-20",-290115.8
+"P02","East Ward Food Relief",18000,"2026-08-21",800977.23
+"P05","Metro Central Distribution",35000,"2026-08-21",-284356.95
+"P02","East Ward Food Relief",18000,"2026-08-22",798804.35
+"P05","Metro Central Distribution",35000,"2026-08-22",-290757.46
+"P02","East Ward Food Relief",18000,"2026-08-23",808329.81
+"P05","Metro Central Distribution",35000,"2026-08-23",-296634.6
+"P02","East Ward Food Relief",18000,"2026-08-24",805055.98
+"P05","Metro Central Distribution",35000,"2026-08-24",-303515.27
+"P02","East Ward Food Relief",18000,"2026-08-25",813237.26
+"P05","Metro Central Distribution",35000,"2026-08-25",-311811.77
+"P02","East Ward Food Relief",18000,"2026-08-26",821112.77
+"P05","Metro Central Distribution",35000,"2026-08-26",-318217.76
+"P02","East Ward Food Relief",18000,"2026-08-27",817705.7
+"P05","Metro Central Distribution",35000,"2026-08-27",-326405.36
+"P02","East Ward Food Relief",18000,"2026-08-28",824451.99
+"P05","Metro Central Distribution",35000,"2026-08-28",-333836.51
+"P02","East Ward Food Relief",18000,"2026-08-29",820331.05
+"P05","Metro Central Distribution",35000,"2026-08-29",-331828.17
+"P02","East Ward Food Relief",18000,"2026-08-30",817421.29
+"P05","Metro Central Distribution",35000,"2026-08-30",-326639.78
+"P02","East Ward Food Relief",18000,"2026-08-31",826110.76
+"P05","Metro Central Distribution",35000,"2026-08-31",-335317.06

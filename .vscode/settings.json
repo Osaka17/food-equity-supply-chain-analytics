@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "food_equity",
+            "database": "${workspaceFolder:bigP}/data/food_equity.db"
+        }
+    ]
+}

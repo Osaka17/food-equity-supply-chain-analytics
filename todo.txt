@@ -1,0 +1,13 @@
+Challenge 1: The Fan-Out Trap & Hub Throughput
+We want an overview report for each pantry showing:
+
+pantry_name
+
+neighborhood_zone
+
+total_received_lbs (sum of weight from shipments)
+
+total_distributed_lbs (sum of weight from distributions)
+
+net_balance_lbs (total_received_lbs - total_distributed_lbs)
+
