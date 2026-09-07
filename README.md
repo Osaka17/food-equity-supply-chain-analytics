@@ -1,6 +1,6 @@
 # Food Equity Supply Chain Optimization & Ledger Dynamics
 
-An end-to-end quantitative supply chain project modeling network allocation, unconstrained ledger divergence, and capacity-constrained redistribution across an 8-hub municipal food pantry network over a 365-day operating cycle.
+An end-to-end quantitative supply chain project modelling network allocation, unconstrained ledger divergence, and capacity-constrained redistribution across an 8-hub municipal food pantry network over a 365-day operating cycle.
 
 ---
 
