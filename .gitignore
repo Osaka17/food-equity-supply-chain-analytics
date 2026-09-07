@@ -1,0 +1,5 @@
+food_equity.db
+*.db
+__pycache__/
+*.pyc
+.vscode/
