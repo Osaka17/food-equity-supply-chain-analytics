@@ -171,13 +171,19 @@ ORDER BY p.pantry_id;
 
 ## 4. Visual Findings & Analysis
 
-**Chart 1: The Allocation Mismatch**
+### Chart 1: The Allocation Mismatch
+![Allocation Mismatch](./chart1_allocation_mismatch.png)
+
 Under equal dispatch (~12.5% per hub), Metro Central (P05) operates under an immediate -10.6% structural deficit, while suburban pantries receive far more food than their local communities require.
 
-**Chart 2: Inventory Divergence vs. Storage Limits**
+### Chart 2: Inventory Divergence vs. Storage Limits
+![Inventory Divergence](./chart2_daily_divergence.png)
+
 Over 365 days, Metro Central runs out of inventory by October and stays in an ongoing deficit, finishing with -340,000 lbs of unfulfilled demand. Meanwhile, suburban East Ward (P02) exceeds its 18,000 lb capacity within weeks, accumulating paper inventory that cannot physically fit on site.
 
-**Chart 3: Policy Comparison & Bottlenecks**
+### Chart 3: Policy Comparison & Bottlenecks
+![Policy Comparison](./chart3_policy_comparison.png)
+
 Distributing shipments by demand share completely resolves community shortages, dropping the stockout rate from 93.7% to 0.0% at Metro Central. However, because network-wide supply exceeds demand, routing 23.1% of shipments downtown causes inventory accumulation to exceed local warehouse capacity, indicating that urban centers need frequent, smaller deliveries rather than large bulk drop-offs.
 
 ---
