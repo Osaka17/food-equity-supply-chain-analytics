@@ -43,85 +43,128 @@ The simulation tracks daily movement for each pantry over 365 operating days:
 
 ## 3. SQL Implementation
 
-All data processing runs in SQLite (`analysis.sql`) using multi-level Common Table Expressions (CTEs) and window functions to model inventory balances and simulate policies without altering raw records.
+All data processing runs in SQLite using multi-level Common Table Expressions (CTEs) and window functions to model inventory balances and simulate policies without altering raw records. Source data lives in three tables: `pantries`, `shipments`, and `distributions`.
 
-### Query 1: Tracking Running Balances & Storage Breaches
+The two queries below are the core of the analysis — the rest of the query set (demand-share breakdowns and chart-specific data pulls) is available in [`/sql`](./sql).
 
-Calculates cumulative inventory per pantry over time and flags stockouts and physical overflow.
+### Query 1: Baseline Problem Quantification (Stockouts vs. Overflows)
+
+Builds a running inventory ledger per pantry, then counts how many days each pantry spent in a stockout (balance ≤ 0) or overflow (balance > storage capacity) state under the baseline shipping policy. This is the query behind the headline 93.7% stockout figure.
 
 ```sql
-WITH DailyNet AS (
+WITH 
+sdi AS (
     SELECT 
-        pantry_id,
-        service_date,
-        daily_shipments,
-        daily_distributed,
-        (daily_shipments - daily_distributed) AS net_flow
-    FROM service_records
+        pantry_id, 
+        service_date, 
+        SUM(weight_distributed_lbs) AS day_out
+    FROM distributions
+    GROUP BY pantry_id, service_date
 ),
-RunningLedger AS (
+sdo AS (
     SELECT 
-        p.pantry_id,
-        p.pantry_name,
-        p.capacity_lbs,
-        d.service_date,
-        SUM(d.net_flow) OVER (
-            PARTITION BY p.pantry_id 
-            ORDER BY d.service_date 
-            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-        ) AS running_balance
-    FROM DailyNet d
-    JOIN pantries p ON d.pantry_id = p.pantry_id
+        pantry_id, 
+        arrival_date, 
+        SUM(weight_received_lbs) AS day_in
+    FROM shipments
+    GROUP BY pantry_id, arrival_date
+), 
+running_tot AS (
+    SELECT 
+        sdi.pantry_id, 
+        sdi.service_date,
+        SUM(COALESCE(sdo.day_in, 0) - sdi.day_out) 
+            OVER (PARTITION BY sdi.pantry_id ORDER BY sdi.service_date) AS running_total_lbs
+    FROM sdi
+    LEFT JOIN sdo
+        ON sdi.pantry_id = sdo.pantry_id 
+        AND sdi.service_date = sdo.arrival_date
+), 
+pantry_summary AS (
+    SELECT 
+        rt.pantry_id, 
+        COUNT(CASE WHEN running_total_lbs <= 0 THEN 1 END) AS stockout_days, 
+        COUNT(CASE WHEN running_total_lbs > p.max_storage_capacity_lbs THEN 1 END) AS overflow_days,
+        ROUND(MAX(rt.running_total_lbs), 2) AS peak_inventory_lbs
+    FROM running_tot rt
+    LEFT JOIN pantries p ON rt.pantry_id = p.pantry_id
+    GROUP BY rt.pantry_id
 )
 SELECT 
-    pantry_id,
-    service_date,
-    running_balance,
-    capacity_lbs,
-    CASE WHEN running_balance <= 0 THEN 1 ELSE 0 END AS is_stockout,
-    CASE WHEN running_balance > capacity_lbs THEN (running_balance - capacity_lbs) ELSE 0 END AS overflow_lbs
-FROM RunningLedger;
+    p.pantry_id, 
+    p.pantry_name, 
+    p.max_storage_capacity_lbs,
+    s.stockout_days,
+    ROUND(((s.stockout_days * 1.0 / 365.0) * 100), 2) AS stockout_pct,
+    ROUND(((s.overflow_days * 1.0 / 365.0) * 100), 2) AS overflow_pct,
+    s.peak_inventory_lbs
+FROM pantries p 
+INNER JOIN pantry_summary s ON p.pantry_id = s.pantry_id
+ORDER BY p.pantry_id;
 ```
 
-### Query 2: Demand-Weighted Reallocation Policy
+### Query 2: Demand-Weighted Reallocation Simulation
 
-Reallocates total daily network shipments proportionally according to each pantry's share of annual demand.
+Simulates a policy where total daily network shipments are redistributed by each pantry's demand share, then recomputes stockout days, overflow days, and peak inventory under the new policy. This is the fix that drops the network-wide stockout rate to 0.0%.
 
 ```sql
-WITH PantryDemandTotals AS (
+WITH 
+demand AS (
     SELECT 
         pantry_id,
-        SUM(daily_distributed) * 1.0 / (SELECT SUM(daily_distributed) FROM service_records) AS demand_weight
-    FROM service_records
+        SUM(weight_distributed_lbs) * 1.0 / SUM(SUM(weight_distributed_lbs)) OVER () AS demand_share
+    FROM distributions
     GROUP BY pantry_id
 ),
-NetworkDailyShipments AS (
+daily_out AS (
     SELECT 
-        service_date,
-        SUM(daily_shipments) AS total_network_shipments
-    FROM service_records
-    GROUP BY service_date
+        pantry_id, 
+        service_date, 
+        SUM(weight_distributed_lbs) AS day_out
+    FROM distributions
+    GROUP BY pantry_id, service_date
 ),
-SimulatedFlow AS (
+daily_network_shipments AS (
     SELECT 
-        s.pantry_id,
-        s.service_date,
-        (nds.total_network_shipments * pdt.demand_weight) AS sim_shipments,
-        s.daily_distributed,
-        ((nds.total_network_shipments * pdt.demand_weight) - s.daily_distributed) AS sim_net_flow
-    FROM service_records s
-    JOIN PantryDemandTotals pdt ON s.pantry_id = pdt.pantry_id
-    JOIN NetworkDailyShipments nds ON s.service_date = nds.service_date
+        arrival_date, 
+        SUM(weight_received_lbs) AS total_network_in
+    FROM shipments
+    GROUP BY arrival_date
+),
+simulated_running_tot AS (
+    SELECT 
+        o.pantry_id,
+        o.service_date,
+        SUM(COALESCE(s.total_network_in * d.demand_share, 0) - o.day_out) 
+            OVER (PARTITION BY o.pantry_id ORDER BY o.service_date) AS sim_running_lbs
+    FROM daily_out o
+    JOIN demand d ON o.pantry_id = d.pantry_id
+    LEFT JOIN daily_network_shipments s ON o.service_date = s.arrival_date
+),
+sim_summary AS (
+    SELECT 
+        srt.pantry_id,
+        COUNT(CASE WHEN srt.sim_running_lbs <= 0 THEN 1 END) AS sim_stockout_days,
+        COUNT(CASE WHEN srt.sim_running_lbs > p.max_storage_capacity_lbs THEN 1 END) AS sim_overflow_days,
+        ROUND(MAX(srt.sim_running_lbs), 2) AS sim_peak_lbs
+    FROM simulated_running_tot srt
+    JOIN pantries p ON srt.pantry_id = p.pantry_id
+    GROUP BY srt.pantry_id
 )
 SELECT 
-    pantry_id,
-    service_date,
-    SUM(sim_net_flow) OVER (
-        PARTITION BY pantry_id 
-        ORDER BY service_date 
-        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-    ) AS sim_running_balance
-FROM SimulatedFlow;
+    p.pantry_id,
+    p.pantry_name,
+    p.max_storage_capacity_lbs,
+    ROUND(d.demand_share * 100.0, 2) AS demand_share_pct,
+    ss.sim_stockout_days,
+    ROUND(((ss.sim_stockout_days * 1.0 / 365.0) * 100.0), 2) AS sim_stockout_pct,
+    ss.sim_overflow_days,
+    ROUND(((ss.sim_overflow_days * 1.0 / 365.0) * 100.0), 2) AS sim_overflow_pct,
+    ss.sim_peak_lbs
+FROM pantries p
+JOIN demand d ON p.pantry_id = d.pantry_id
+JOIN sim_summary ss ON p.pantry_id = ss.pantry_id
+ORDER BY p.pantry_id;
 ```
 
 ---
